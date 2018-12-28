@@ -6,6 +6,6 @@ add . /go/SRC/github.com/mi4tin/DockerGo
 
 run go install /go/SRC/github.com/mi4tin/DockerGo
 
-entrypoint /go/bin/aa
+entrypoint /go/bin/DockerGo
 
-expose
+expose 8080
