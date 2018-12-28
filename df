@@ -1,4 +1,4 @@
-from golang
+from golang:alpine
 
 run mkdir -p /go/SRC/github.com/mi4tin/DockerGo
 
