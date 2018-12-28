@@ -1,0 +1,11 @@
+from golang
+
+run mkdir -p /go/SRC/github.com/mi4tin/DockerGo
+
+add . /go/SRC/github.com/mi4tin/DockerGo
+
+run go install /go/SRC/github.com/mi4tin/DockerGo
+
+entrypoint /go/bin/aa
+
+expose

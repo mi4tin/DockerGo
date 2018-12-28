@@ -12,5 +12,5 @@ func IndexHandler(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/", IndexHandler)
 	fmt.Println("开启服务")
-	http.ListenAndServe(":8000", nil)
+	http.ListenAndServe(":12027", nil)
 }
