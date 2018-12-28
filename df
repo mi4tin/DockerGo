@@ -1,8 +1,8 @@
 from golang:alpine
 
-run mkdir -p /go/SRC/github.com/mi4tin/DockerGo
+run mkdir -p /go/src/github.com/mi4tin/DockerGo
 
-add . /go/SRC/github.com/mi4tin/DockerGo
+add . /go/src/github.com/mi4tin/DockerGo
 
 run go install github.com/mi4tin/DockerGo
 
